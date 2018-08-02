@@ -1,0 +1,39 @@
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+.minHeight200px {
+	height: 200px;
+}
+.marginLeftRight10px {
+	border: 10px solid white;
+}
+.padTopLeft {
+	padding: 30% 0 0 25%;
+}
+.padLeft {
+	padding: 0 0 0 2%;
+}
+#content {
+position: relative;
+top : 100vh;
+}
+.stayWhite:hover {
+	color: white;
+}
+.padTop {
+	margin-top: 10px;
+}
